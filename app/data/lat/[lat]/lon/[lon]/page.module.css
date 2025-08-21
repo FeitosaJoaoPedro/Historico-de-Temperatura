@@ -1,0 +1,34 @@
+.mainPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardPosition {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.dataCard {
+  display: flex;
+  background-color: white;
+  height: 600px;
+  width: 850px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.6);
+}
+
+.cardContent {
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+}
+
+.loadingText {
+  text-align: center;
+}

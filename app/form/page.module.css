@@ -1,0 +1,40 @@
+.mainPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.cardPosition {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.dataCard {
+  display: flex;
+  background-color: white;
+  height: 580px;
+  width: 530px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.6);
+}
+
+.selectDate {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.selectFields {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+}
